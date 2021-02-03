@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&family=Montserrat:wght@400;600;700;800;900&family=Raleway:ital,wght@0,400;0,800;0,900;1,700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+a{ text-decoration: none;}
+
+body
+{
+    font-size: 16px;
+}   
+
+:root
+{
+    /* font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif; */
+    --golden: #ffba00;
+    --lato: 'Lato', sans-serif;
+    --mont: 'Montserrat', sans-serif;
+    --rale: 'Raleway', sans-serif;
+}
+
+.container{ width: 100%; max-width: 1080px; margin: 0 auto;}
+header{ padding-top: 40px; background: url("/images/header\ pic.png") no-repeat; height: 960px; position: relative; z-index: -9;}
+header .container .navbar .banner{ position: absolute; width: 351px; height: 78px; top: 30px; left: 0; background-color: var(--golden);}
+header .navbar { display: flex; justify-content: space-between; align-items: center;}
+header .navbar .menubars { display: none;}
+header .navbar .logo{ font-family: var(--mont); font-size: 2rem; font-weight: 800; letter-spacing: 2px; text-align: right; color: white; z-index: 9;}
+header .navbar ul{ display: flex; justify-content: center; align-items: center; width: 41rem; height: 2rem;}
+header .navbar .menulist .listitem{ font-family: var(--lato); font-size: 2rem; font-weight: 400; color: white; margin-right: 4rem; cursor: pointer;}
+header .navbar .menulist .listitem:hover { color: var(--golden);}
+
+header .mainbanner{position: absolute; top: 403px; width: 100%; height: 12.375rem; background-color: var(--golden); z-index: -1;}
+
+header .main-section .section {display: flex; justify-content: space-between; margin-top: 22.5rem; z-index: 2;}
+
+header .main-section .section .heading {text-transform: uppercase; margin-left: 2rem; width: 562px; height: 196px; color: white; font-family: var(--mont);}
+
+header .container .main-section .section h1 .span {display: block; font-size: 7.75rem; line-height: 7rem; }
+header .main-section .section h1 .span2 { font-size: 6.5rem; letter-spacing: .75rem; font-weight: normal; line-height: 6rem;}
+
+header .container .main-section .section a {font-family: var(--mont); font-weight: 600; margin-top: 116px; margin-right: 106px; margin-left: 76px; text-transform: uppercase; width: 341px; height: 86px; line-height: 28px; background-color: var(--golden); border: solid 4px white ;padding-top: 33px; padding-bottom: 28px;  text-align: right; color: white; font-size: 33px; z-index: 1;}
+
+header .container .main-section .section a:hover
+{
+    color: var(--golden);
+    background-color: white;
+}
