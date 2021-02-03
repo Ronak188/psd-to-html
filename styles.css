@@ -30,7 +30,7 @@ body
 }
 
 .container{ width: 100%; max-width: 1080px; margin: 0 auto;}
-header{ padding-top: 40px; background: url("/images/header\ pic.png") no-repeat; height: 960px; position: relative; z-index: -9;}
+header{ padding-top: 40px; background: url("header\ pic.png") no-repeat; height: 960px; position: relative; z-index: -9;}
 header .container .navbar .banner{ position: absolute; width: 351px; height: 78px; top: 30px; left: 0; background-color: var(--golden);}
 header .navbar { display: flex; justify-content: space-between; align-items: center;}
 header .navbar .menubars { display: none;}
